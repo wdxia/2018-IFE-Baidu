@@ -1,0 +1,85 @@
+/*侧边栏样式*/
+body{
+    
+}
+aside {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+} 
+
+aside img{
+    display: block;
+    border: 1px solid black;
+    width: 220px;
+    height: 200px;
+    margin: 50px 0;
+}
+main {
+    float: right;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: KaiTi;
+    text-align: center;
+}
+.basicInformation {
+   
+}
+.basicInformation h2{
+    font-size: 20px;
+    font-family: KaiTi;
+    padding: 20px 0;
+}
+.basicInformation span{
+    font-weight: bold;
+}
+.basicInformation > div > p {
+    display: inline-block;
+    margin:0 20px;
+}
+
+.educationExperience h2{
+    font-size: 20px;
+    font-family: KaiTi;
+    padding: 20px 0;
+}
+
+.educationExperience>div>div{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.abilityIntroduce h2{
+    font-size: 20px;
+    font-family: KaiTi;
+    padding: 20px 0;
+}
+.abilityIntroduce p {
+    padding: 10px 0 10px 20px;
+}
+
+.projectExperience h2{
+    font-size: 20px;
+    font-family: KaiTi;
+    padding: 20px 0;
+}
+.projectExperience .layout p{
+    display: inline-block;
+}
+.projectExperience .layout a{
+    float: right;
+    margin-right: 20%;
+}
+.projectExperience .project{
+    margin: 10px 0 10px 20px;
+}
+.projectExperience p {
+    line-height: 30px;
+}
